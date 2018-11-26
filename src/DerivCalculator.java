@@ -77,10 +77,12 @@ public class DerivCalculator {
         double y = 1;
         String formula = function;
 
+        // remove white space and store function as String Array
         formula = formula.replaceAll("\\s","");
         String[] values = formula.split("(?<=[-+*/^])|(?=[-+*/^])");
 
 
+        // enhanced for loop to iterate through the array
         for(String a : values){
             count++;
             if(a.equals("x")){
@@ -129,6 +131,7 @@ public class DerivCalculator {
 
         double y;
 
+        // basic derivative application to determine rate of change
         y = ((function(function, x + inc) - function(function, x)) / inc) - inc;
 
         return y;
