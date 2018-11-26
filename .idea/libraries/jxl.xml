@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jxl">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Documents/jxl" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Documents/jxl" recursive="false" />
+  </library>
+</component>
